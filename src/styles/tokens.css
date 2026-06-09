@@ -1,0 +1,53 @@
+/*  Design Tokens */
+
+:root {
+  /* ── Color · Brand ─────────────────── */
+  --sky: #14b5ec;
+  --sky-600: #0b91c4;
+  --sky-soft: #dbf3fd;
+  --sky-pale: #effafe;
+
+  /* ── Color · Accent ─────────────────── */
+  --yellow: #ffd42a;
+  --yellow-soft: #fff1b8;
+  --yellow-deep: #8a6400;
+
+  /* ── Color · Neutral ────────────────── */
+  --ink: #15181e;
+  --ink-2: #5b636f;
+  --ink-3: #9aa2ad;
+  --line: #e7ecf1;
+  --line-soft: #f0f3f6;
+  --cloud: #f3f7fa;
+  --paper: #ffffff;
+
+  /* ── Color · Semantic ───────────────── */
+  --warn: #e5484d;
+  --warn-soft: #ffe5e4;
+  --ok: #16a06b;
+  --ok-soft: #d8f5e6;
+
+  /* ── Typography ─────────────────────── */
+  --font-base: 'Pretendard Variable', Pretendard, -apple-system, 'Apple SD Gothic Neo', system-ui,
+    sans-serif;
+  --font-num: 'Space Grotesk', 'Pretendard Variable', system-ui, sans-serif;
+
+  /* ── Border Radius ──────────────────── */
+  --radius-btn: 12px;
+  --radius-btn-lg: 14px;
+  --radius-btn-sm: 10px;
+  --radius-chip: 999px;
+  --radius-card: 18px;
+  --radius-input: 12px;
+  --radius-badge: 7px;
+  --radius-img: 16px;
+
+  /* ── Shadow ─────────────────────────── */
+  --shadow-card: 0 1px 0 #e7ecf1, 0 6px 22px -16px rgba(20, 40, 60, 0.28);
+  --shadow-modal: 0 30px 80px -20px rgba(0, 0, 0, 0.5);
+
+  /* ── Layout ─────────────────────────── */
+  --header-height: 70px;
+  --page-padding-x: 48px;
+  --content-max-width: 920px;
+}
